@@ -27,12 +27,20 @@
     <link rel="icon" type="image/svg+xml" href="/aurum-fitness/favicon.svg" />
     <link rel="alternate icon" href="/aurum-fitness/favicon.ico" sizes="32x32" />
     <link rel="apple-touch-icon" sizes="180x180" href="/aurum-fitness/apple-touch-icon.png" />
+    <!-- Fonts load off the critical path: preconnect early, apply when ready,
+         and keep a plain stylesheet for browsers without JS. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+      media="print"
+      onload="this.media='all';this.onload=null"
     />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" />
+    </noscript>
     <meta name="description" content="Aurum Fitness is a sports platform built for teams that need reliable results. Train like the clock is watching." />
     <meta name="theme-color" content="#0e1116" />
     <link rel="canonical" href="https://malikusmangoraya.github.io/aurum-fitness" />
@@ -79,7 +87,13 @@
   ]
 }
     </script>
-    <script type="module" crossorigin src="/aurum-fitness/assets/index-BWz-HovX.js"></script>
+    <script type="module" crossorigin src="/aurum-fitness/assets/index-QEJdEpaR.js"></script>
+    <link rel="modulepreload" crossorigin href="/aurum-fitness/assets/rolldown-runtime-B0Z9INg1.js">
+    <link rel="modulepreload" crossorigin href="/aurum-fitness/assets/vendor-DmGYc1dl.js">
+    <link rel="modulepreload" crossorigin href="/aurum-fitness/assets/vendor-react-47MP8775.js">
+    <link rel="modulepreload" crossorigin href="/aurum-fitness/assets/vendor-router-vcJNl_dJ.js">
+    <link rel="modulepreload" crossorigin href="/aurum-fitness/assets/vendor-app-B1gfR-ZC.js">
+    <link rel="modulepreload" crossorigin href="/aurum-fitness/assets/vendor-i18n-oNzwb79B.js">
     <link rel="stylesheet" crossorigin href="/aurum-fitness/assets/index-BUt7wDFO.css">
   </head>
   <body>
